@@ -23,9 +23,9 @@ public class FormServlet extends HttpServlet {
 		response.setContentType("text/html");
 		
 		PrintWriter out = response.getWriter();
-		out.println("<html><body><h2>Simple form servlet</h2>" +
+		out.println("<html><body><h2>Wpisz swoje imie, bo chcemy Cie poznac: </h2>" +
 				"<FORM action=data>"+
-		"What's your name? <INPUT TYPE=TEXT NAME='username' SIZE=20>"+
+		"Wpisujesz czy nie? <INPUT TYPE=TEXT NAME='username' SIZE=20>"+
 		"<P><INPUT TYPE=SUBMIT>"+
 				"</body></html>");
 		HttpSession session = request.getSession();

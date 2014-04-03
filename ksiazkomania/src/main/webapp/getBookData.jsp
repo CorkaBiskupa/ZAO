@@ -8,8 +8,8 @@
 </head>
 <body>
 
-<jsp:useBean id="storage" class="com.example.servletjspdemo.service.StorageService" scope="application" />
-<jsp:useBean id="book" class="com.example.servletjspdemo.domain.Book" scope="session" />
+<jsp:useBean id="storage" class="com.example.service.StorageService" scope="application" />
+<jsp:useBean id="book" class="com.example.book.Book" scope="session" />
 
 <form action="addBook.jsp">
 

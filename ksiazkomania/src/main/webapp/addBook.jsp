@@ -7,11 +7,11 @@
 <title>Ksiazkomania</title>
 </head>
 <body>
-<jsp:useBean id="book" class="com.example.servletjspdemo.domain.Book" scope="session" />
+<jsp:useBean id="book" class="com.example.book.Book" scope="session" />
 
 <jsp:setProperty name="book" property="*" /> 
 
-<jsp:useBean id="storage" class="com.example.servletjspdemo.service.StorageService" scope="application" />
+<jsp:useBean id="storage" class="com.example.service.StorageService" scope="application" />
 
 <% 
   storage.add(book);

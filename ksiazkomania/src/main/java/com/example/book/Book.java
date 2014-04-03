@@ -2,9 +2,13 @@ package com.example.book;
 
 public class Book {
 	
-	String title;
-	String author;
-	int year;
+	private String title = "unkknown";
+	private String author = "unknown";
+	private int year = 1999;
+	
+	public Book() {
+		super();
+	}
 	
 	public Book(String title, String author, int year) {
 		super();
