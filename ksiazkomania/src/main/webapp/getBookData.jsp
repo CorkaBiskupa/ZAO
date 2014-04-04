@@ -16,8 +16,14 @@
   Tytul :<input type="text" name="title" value="${book.title}" /><br />
   rok wydania :<input type="text"  name="year" value="${book.year}" /><br />
   <input type="submit" value=" OK ">
-  
+  <br>
+  <br>
 </form>
+
+<form action="deleteBookData.jsp">
+
+  Podaj index do usuniecia o ile go znasz ( jak nie to <a href="showAllBooks.jsp">sprawdz tutaj</a>) :<input type="text" name="index" value="0" /><br />
+  <input type="submit" value=" OK ">
 
 </body>
 </html>

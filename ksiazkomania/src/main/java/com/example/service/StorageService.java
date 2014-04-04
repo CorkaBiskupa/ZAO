@@ -19,4 +19,7 @@ public class StorageService {
 		return db;
 	}
 
+	public void delete(int index){
+		db.remove(index);
+	}
 }

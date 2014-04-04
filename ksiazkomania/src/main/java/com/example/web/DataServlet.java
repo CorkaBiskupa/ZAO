@@ -23,17 +23,13 @@ public class DataServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		/*String selectedGender = "";
-		for (String gender : request.getParameterValues("gender")) {
-			selectedGender += gender + " ";
-		}*/
 		HttpSession session = request.getSession();
 		out.println("<html><body><h2>Twoje dane: </h2>" +
-				"<p>Imie: " + session.getAttribute("theName") + "<br />" +
-				//"<p>Płeć: " + selectedGender + "<br />" +
+				"<p>" + request.getParameter("theName") + "... ale wiesz? to nas nie obchodzi" +"<br />" +
 				"<br>"+"<br>"+"<br>"+"<br>"+
 				"<h1>Wybierz co chcesz zrobic z ksiazkami: </h1>"+
-				"<a href=getBookData.jsp>Dodaj nowa ksiazke.</a>"+
+				"<a href=getBookData.jsp>Dodaj nowa ksiazke lub usun stare.</a><br>"+
+				"<a href=showAllBooks.jsp>Pokaz ksiazki jakie juz sa.</a><br>"+
 				"</body></html>");
 		out.close();
 	}
