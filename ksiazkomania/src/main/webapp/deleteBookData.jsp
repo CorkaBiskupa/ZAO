@@ -15,12 +15,21 @@
 <jsp:useBean id="storage" class="com.example.service.StorageService" scope="application" />
 
 <% int index = Integer.parseInt(request.getParameter("index"));
+	if (storage.size()!=0){
   storage.delete(index);
-%>
-
-<p>
+  %> <p>
 	Ksiazke o indeksie: </p><%= request.getParameter("index") %> <p>pomyslnie usunieto.
   <a href="showAllBooks.jsp">Pokaz wszystkie ksiazki</a>
-</p>
+</p><% 
+	}
+	else {
+		%> <a href="getBookData.jsp">Brak ksiazek - dodaj jakas</a><% 
+	}
+%>
+
+
+	
+	
+	
 </body>
 </html>

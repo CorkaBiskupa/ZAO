@@ -22,4 +22,9 @@ public class StorageService {
 	public void delete(int index){
 		db.remove(index);
 	}
+	
+	public int size(){
+		int size=db.size();
+		return size;
+	}
 }
