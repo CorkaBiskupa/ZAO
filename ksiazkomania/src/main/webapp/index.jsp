@@ -9,6 +9,14 @@
     </head>
     <body>
         <h2>Witaj w dziwnym portalu książkofila</h2>
-        <p><a href="form">Najpierw wypełnij formularz....</a></p>
+        <h1>Login Page</h1>
+        <center>
+            <h2>Lognij sie:</h2>
+            <form action="LoginCheck.jsp" method="post">
+            <br/>Username:<input type="text" name="username">
+            <br/>Password:<input type="password" name="password">
+            <br/><input type="submit" value="Submit">
+            </form>
+		</center>
     </body>
 </html>

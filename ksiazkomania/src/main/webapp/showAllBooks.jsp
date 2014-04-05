@@ -13,15 +13,13 @@
 <%
 int i=0;
   for (Book book : storage.getAllBooks()) {
-out.println("<p>Numer: " + i + "Tytuł: " + book.getTitle() + "; Autor: " + book.getAuthor() + "; Rok wydania: " + book.getYear() + "</p>");
+out.println("<p>Numer: " + i + " Tytuł: " + book.getTitle() + "; Autor: " + book.getAuthor() + "; Rok wydania: " + book.getYear() + "</p>");
   i++;
   }
   
 %>
 <p>
-  <a href="getBookData.jsp">Dodaj nowa ksiazke lub usun jakas.</a>
-  
-  
+  <a href="getBookData.jsp">Dodaj nowa ksiazke lub usun jakas.</a>  
 </p>
 
 </body>

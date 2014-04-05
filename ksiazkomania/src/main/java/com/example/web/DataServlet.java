@@ -24,9 +24,10 @@ public class DataServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		HttpSession session = request.getSession();
-		out.println("<html><body><h2>Twoje dane: </h2>" +
-				"<p>" + request.getParameter("theName") + "... ale wiesz? to nas nie obchodzi" +"<br />" +
-				"<br>"+"<br>"+"<br>"+"<br>"+
+		String a=session.getAttribute("username").toString();
+		out.println(
+				"Hello  "+ a + "<br>" +
+				"<a href='logout.jsp'>Logout</a>"+
 				"<h1>Wybierz co chcesz zrobic z ksiazkami: </h1>"+
 				"<a href=getBookData.jsp>Dodaj nowa ksiazke lub usun stare.</a><br>"+
 				"<a href=showAllBooks.jsp>Pokaz ksiazki jakie juz sa.</a><br>"+
