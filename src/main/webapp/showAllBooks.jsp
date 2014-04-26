@@ -5,7 +5,7 @@
 <html>
 <head>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link href="default.css" rel="stylesheet" type="text/css">
+ <link href="default.css" rel="stylesheet" type="text/css">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Ksiazkomania</title>
 </head>

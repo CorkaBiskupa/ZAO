@@ -29,7 +29,7 @@ public class DataServlet extends HttpServlet {
 				 "<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>"
 			      +"<link href='default.css' rel='stylesheet' type='text/css'>" +
 				"Hello  "+ a + "<br>" +
-				"<a href='logout.jsp'>Logout</a>"+
+				"<a href='logout.jsp'>Logout</a><br><br>"+
 				"<h1>Wybierz co chcesz zrobic z ksiazkami: </h1>"+
 				"<a href=getBookData.jsp>Dodaj nowa ksiazke lub usun stare.</a><br>"+
 				"<a href=showAllBooks.jsp>Pokaz ksiazki jakie juz sa.</a><br>"+
