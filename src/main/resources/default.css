@@ -1,0 +1,46 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background: #333333;
+	font-family: 'Muli', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #363636;
+}
+
+
+h1, h2, h3 {
+	text-align:center;
+/* 	margin: 0; */
+/* 	padding: 0; */
+}
+
+p, ol, ul {
+	text-align:center;
+/* 	margin-top: 0px; */
+}
+
+p {
+	text-align:center;
+/* 	line-height: 190%; */
+}
+
+strong {
+}
+
+a {
+	color: #171717;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+	
