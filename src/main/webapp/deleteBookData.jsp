@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Ksiazkomania</title>
 </head>
-<body>
+<body><center>
 <jsp:useBean id="book" class="com.example.book.Book" scope="session" />
 
 
@@ -34,5 +34,5 @@ int index = Integer.parseInt(request.getParameter("index"));
 	
 	
 	
-</body>
+</center></body>
 </html>

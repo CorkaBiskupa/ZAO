@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body><center>
 <% //if (request.getParameter("username")!=("Niohacz")) 
 //{response.sendRedirect("index.jsp");} %>
 
@@ -28,6 +28,6 @@
 
   Podaj index do usuniecia o ile go znasz ( jak nie to <a href="showAllBooks.jsp">sprawdz tutaj</a>) :<input type="text" name="index" value="0" /><br />
   <input type="submit" value=" OK ">
-
+</center>
 </body>
 </html>

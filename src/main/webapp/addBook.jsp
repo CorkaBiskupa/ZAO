@@ -13,7 +13,9 @@
 
 <jsp:useBean id="storage" class="com.example.service.StorageService" scope="application" />
 
-
+<%
+	storage.add(book);
+%>
 
 <p>Nastepujaca ksiazka została dodana: </p>
 <p>Tytul: ${book.title} </p>

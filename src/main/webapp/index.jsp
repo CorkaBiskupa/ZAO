@@ -9,9 +9,10 @@
         <title>Portal książkofila</title>
     </head>
     <body>
+    	<div id="container"><center>
         <h2>Witaj w dziwnym portalu książkofila</h2>
         <h1>Login Page</h1>
-        <center>
+
             <h2>Lognij sie:</h2>
             <form action="LoginCheck.jsp" method="post">
             <br/>Username:<input type="text" name="username">
@@ -19,5 +20,6 @@
             <br/><input type="submit" value="Submit">
             </form>
 		</center>
+		</div>
     </body>
 </html>
